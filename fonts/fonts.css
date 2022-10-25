@@ -1,0 +1,12 @@
+ @font-face {
+    font-family: Montserrat; /* Имя шрифта */
+    src: url(Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+    font-family: Montserrat-Regular; /* Имя шрифта */
+    src: url(Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+    font-family: AvenirNextCyr-Regular; /* Имя шрифта */
+    src: url(AvenirNextCyr-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
