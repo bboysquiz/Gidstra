@@ -1,0 +1,35 @@
+.contacts-main
+ background-color: #fff
+ &__container
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  width: 1153px
+  margin: 0 auto
+  padding: 41px 0 100px 0
+ &__block
+  display: flex
+  flex-wrap: wrap
+  width: 250px
+  justify-content: center
+  position: relative
+  &:first-child
+   margin-right: 77px
+   &:after
+    content: ''
+    display: block
+    height: 118px
+    width: 2px
+    background-color: #003963
+    position: absolute
+    right: -77px
+  &:last-child
+   margin-left: 78px
+  &-icon
+   margin-bottom: 34px
+  &-text
+   font-size: 2rem
+   font-family: Montserrat
+   color: #313131
+   &-phone
+    text-decoration: none
